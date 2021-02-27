@@ -1,31 +1,40 @@
-# Custom App Clip Codes for Beatsy [WIP]
+# Beatsy App Clip Codes [WIP]
 
 App Clip Codes for [Beasty][app] let you create unique AR music experiences for people to discover in the world. You can use them to hype an upcoming release or you can design a musical and visual experiences for a specific location.
 
-![](demo)
-
-[App clip codes](https://developer.apple.com/design/human-interface-guidelines/app-clips/overview/app-clip-codes/) are QR-style designs that iPhone users can scan to launch small app experiences without having to install anything. Beatsy links these codes to specific audio and augmented reality visualizer effect. When a user scans a Beatsy app clip code a minimal version of Beatsy will be launched, the link audio will start playing, and the augmented reality effect will be applied to the world around the code.
+<div align="center"> 
+    <a href="https://youtu.be/5iWi_Kd7rfw">
+        <img src="images/video-thumb.png">
+    </a>
+</div>
 
 The document describes what you can create using Beatsy App Clip codes. If you would like to create an app clip code, please [file an issue][issues] or [reach out][contact] and I will work with you to set one up.
 
-### Why Beatsy?
+### Table of contents
+
+- [Why Beatsy?](#why-beatsy)
+- [Why App Clip Codes?](#why-app-clip-codes)
+- [Custom Beatsy app clip codes](#custom-beatsy-app-clip-codes)
+- [Visualizer Effects](#visualizer-effects)
+
+## Why Beatsy?
 
 [Beatsy][app] is a free iOS app that distorts the real world with music. You can make a wall bulge outward with a bass note or transform a street into a rolling wave of notes for example.
 
 Beatsy's unique style of AR is eye-catching and fun. While post AR apps add overlays onto the real world, Beatsy makes you see an experience the real world differently. It also makes you experience your music differently too.
 
-### Why App Clip Codes?
+## Why App Clip Codes?
 
-Any iPhone user can quickly scan an app clip code to launch a small app without actually installing anything. In the case of Beatsy, scanning the code will launch Beatsy and start playing the linked music. Again, no app install is required.
+[App clip codes](https://developer.apple.com/design/human-interface-guidelines/app-clips/overview/app-clip-codes/) are QR-style designs that iPhone users can scan to launch small app experiences without having to install anything. Beatsy links these codes to specific audio and augmented reality visualizer effect. When a user scans a Beatsy app clip code a minimal version of Beatsy will be launched, the link audio will start playing, and the augmented reality effect will be applied to the world around the code.
 
 You can post App Clip Codes using stickers, posters, or even stencils. With Beatsy, the surface you place the code on also becomes the surface that the music distorts when a user scans the app.
 
 App Clip codes make music discovery interactive and physical. You can tailor individual codes to specific locations or even make finding the codes out in the real world part of the experience.
 
 
-## Creating a custom Beatsy app clip code
+## Custom Beatsy app clip codes
 
-If you are a musician and would like to create a custom code, just [let me know][contact]. These codes are free to create and you can use it however you'd like. 
+If you are a musician and would like to create a custom code, just [file an issue][issues] or [let me know][contact]. These codes are free to create and you can use it however you'd like.
 
 The rest of this document describes how you can customize your App Clip code and what information I will need to create a new code for for you. When you reach out, please try to include as much information as possible so that we can quickly setup a code. Don't worry if you aren't sure about some parts though as I can help walk you through the process.
 
@@ -100,7 +109,7 @@ Each pixel in the video specifies how far that part of the surface will be shift
 
 Here's an example displacement video along with the resulting effect:
 
-TODO:
+❗ TODO
 
 Some basic guidelines for the displacement video:
 
@@ -113,6 +122,5 @@ If the displacement video is shorter than the song, the video will looped during
 
 
 [app]: https://apps.apple.com/us/app/beatsy/id1543162330
-[contact]: 
-
-[issues]: 
+[contact]: https://blog.mattbierner.com/about/
+[issues]: https://github.com/mattbierner/beatsy-app-clip-codes/issues
