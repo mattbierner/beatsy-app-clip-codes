@@ -83,6 +83,7 @@ Each app clip can use one of Beatsy's built-in visualizer effects or provide a c
 Here's quick overview of the available visualizers effects and how they can be customized:
 
 ### Speaker
+
 The speaker visualizer distorts surfaces to make them look like a giant speaker. The distortion responds to music, with bass notes causing large, slow moving waves while treble notes create smaller, faster waves.
 
 **Parameters**
@@ -95,6 +96,7 @@ The speaker visualizer distorts surfaces to make them look like a giant speaker
 
 
 ### Displacement Video
+
 The video visualizer lets you create fully custom visualizations specifically for your audio. It uses a [displacement map](https://en.wikipedia.org/wiki/Displacement_mapping) to distort the surface, which enables arbitrary effects.
 
 **Parameters**
