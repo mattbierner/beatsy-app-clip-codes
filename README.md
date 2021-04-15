@@ -96,6 +96,45 @@ Try loading your audio up in the [full version of Beatsy][app] to find parameter
 
 - `speed` — How fast the waves of the visualizer move. A speed of zero will create standing waves.
 
+### Wave
+
+The wave visualizer distorts surfaces by creating a wave of notes. The center part of the wave shows the most recent musical sample, broken down into base, middle, and high notes. Over time, the samples flow outwards towards the edges of the visualize.
+
+Try loading your audio up in the [full version of Beatsy][app] to find parameters that work best for the wave visualizer.
+
+**Parameters**
+
+- `amplitude` — The max amplitude (height) of the waves.
+
+    This is relative to the visualizer's size.
+
+- `historySize` — How much history is shown in the wave at a time.
+
+    With `historySize` of 30 for example, the last 30 samples of music (about one second worth) will appear in the wave. The most recent entries always appear towards the center, with older ones flowing out towards the edges.
+
+### Ferro
+
+The ferro visualizer is based on magnetic fluid and distorts surfaces using bulges that respond to the music.
+
+Try loading your audio up in the [full version of Beatsy][app] to find parameters that work best for it.
+
+**Parameters**
+
+- `bulgeSize` — The size of the central bulge.
+
+    This bulge rises from the center of the visualizer. All the smaller bumps sprout off of it. The central bulge is what gives the effect more three dimensional look.
+
+    If you set this to zero, then the small bumps will still show up but they will appear as if they were on a flat plane.
+
+- `numberOfBands` — The number of bands of small bumps. Should be between 1 and 4.
+
+    The small bumps run concentrically around the central bulge. They are split into a set number of bands, each one which responds differently the music. The inner bands of bumps respond to higher notes, while outer bands respond to low notes.
+
+- `speed` — The rotation speed of the small bumps.
+
+    If you set this to zero, the bumps will be fixed in place instead of rotating around the visualizer.
+
+- `bumpSize` — The size of the small bumps.
 
 ### Displacement Video
 
